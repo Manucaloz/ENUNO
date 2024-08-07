@@ -22,10 +22,3 @@ Para ejecutar este proyecto, necesitarás tener instalados los siguientes compon
 - Django 3.2 o superior
 - MySQL Connector para Python
 
-## Instalación
-
-1. **Clonar el Repositorio**
-
-   ```bash
-   git clone https://github.com/tu_usuario/enuno.git
-   cd enuno
