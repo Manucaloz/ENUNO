@@ -1,0 +1,11 @@
+# pipreqs: Se enfoca en las bibliotecas que realmente estás usando en tu proyecto según 
+# las importaciones en el código fuente. Ideal para limpiar el archivo requirements.txt y 
+# asegurarte de que solo incluya las dependencias necesarias para tu proyecto.
+
+
+asgiref==3.8.1
+Django==5.0.7
+djangorestframework==3.15.2
+djangorestframework_simplejwt==5.3.1
+mysql_connector_repackaged==0.3.1
+PyMySQL==1.1.1
