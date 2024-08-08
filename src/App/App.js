@@ -11,6 +11,8 @@ import CocinaPage from '../pages/cocina/CocinaPage';
 import BarPage from '../pages/Bar/BarPage';
 import CajaPage from '../pages/Caja/CajaPage';
 
+//Componente que renderiza la aplicación.
+
 export default function App() {
   return (
     <AuthProvider>
@@ -18,13 +20,13 @@ export default function App() {
         <Routes>
           <Route path='/' element={<LoginPage />} />
           <Route path='/login' element={<LoginPage />} />
-          <Route path='/corp' element={<CorpPage />} />
-          <Route path='/admin' element={<AdminPage />} />
-          <Route path='pedidos' element={<PedidosPage />} />
-          <Route path='pedidos/mesa/:id' element={<MesaPage />} />
-          <Route path='/cocina' element={<CocinaPage />} />
-          <Route path='/bar' element={<BarPage />} />
-          <Route path='/caja' element={<CajaPage />} />
+          <Route path='/corp' element={<PrivateRoute element={<CorpPage />} />} />
+          <Route path='/admin' element={<PrivateRoute element={<AdminPage />} />} />
+          <Route path='pedidos' element={<PrivateRoute element={<PedidosPage />} />} />
+          <Route path='pedidos/mesa/:id' element={<PrivateRoute element={<MesaPage />} />} />
+          <Route path='/cocina' element={<PrivateRoute element={<CocinaPage />} />} />
+          <Route path='/bar' element={<PrivateRoute element={<BarPage />} />} />
+          <Route path='/caja' element={<PrivateRoute element={<CajaPage />} />} />
         </Routes>
       </Router>
     </AuthProvider>

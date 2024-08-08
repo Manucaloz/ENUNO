@@ -1,6 +1,8 @@
 import React from "react";
 import Tbody from "./Tbody";
 
+//Componente que contiene la tabla del componente corporativo.
+
 export default function Table() {
   return (
     <table className="table-primary">

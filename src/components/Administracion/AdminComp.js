@@ -6,6 +6,8 @@ import Empleados from "./Empleados/Empleados";
 import Menu from "./Menu/Menu";
 import Mesa from "./Modal/Mesa";
 
+//Componente que contiene las vistas de empleados, menu y estado.
+
 Modal.setAppElement('#root');
 
 export default function AdminComp() {

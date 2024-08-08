@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
+//Componente que contiene el cuerpo de la tabla de cocina.
+
 export default function Tbody() {
   const [body, setBody] = useState([])
 

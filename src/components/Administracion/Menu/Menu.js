@@ -2,6 +2,8 @@ import React from "react";
 import MealTable from "./Meal/MealTable";
 import DrinkTable from "./Drink/DrinkTable";
 
+//Componente que contiene los componentes de comida y bebida.
+
 export default function Menu() {
   return (
     <div className="d-flex">

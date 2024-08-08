@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Modal from 'react-modal';
 import Boleta from "../Modal/Boleta";
 
+//Componente que contiene la informacion de los pedidos.
+
 Modal.setAppElement('#root');
 
 export default function Estado() {

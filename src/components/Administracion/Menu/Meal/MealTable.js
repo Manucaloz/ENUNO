@@ -1,6 +1,8 @@
 import React from "react";
 import Tbody from "./Tbody";
 
+//Componente que contiene la tabla de platos.
+
 export default function MealTable() {
   return (
     <table>

@@ -2,6 +2,12 @@ import React from 'react';
 import Modal from 'react-modal';
 import mesa from '../../../assets/icons8-table-50.png';
 
+/**
+ * Componente Mesa: muestra un modal para agregar el numero de mesas.
+ * @param {boolean} isOpen - Indica si el modal está abierto.
+ * @param {function} onRequestClose - Función para cerrar el modal.
+*/
+
 export default function Mesa({ isOpen, onRequestClose }) {
   const mod = {
     content: {

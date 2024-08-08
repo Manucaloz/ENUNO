@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from 'prop-types';
 import './LoginForm.css';
 
+//Componente que contiene el formulario.
+
 export default function LoginForm({ username, setUsername, password, setPassword, handleSubmit }) {
   return (
     <div id="form" className="container w-35 pt-3 px-5 pb-5 rounded bg-white">

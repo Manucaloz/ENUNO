@@ -4,6 +4,8 @@ import Footer from "../../components/Footer/Footer";
 import BarComp from "../../components/Bar/BarComp";
 import '../../assets/style.css';
 
+//Componente que renderiza la vista de bar.
+
 export default function BarPage() {
   return (
     <>

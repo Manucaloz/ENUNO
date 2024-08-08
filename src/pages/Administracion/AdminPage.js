@@ -4,6 +4,8 @@ import Footer from "../../components/Footer/Footer";
 import AdminComp from "../../components/Administracion/AdminComp";
 import '../../assets/style.css';
 
+//Componente que renderiza la vista de administracion.
+
 export default function AdminPage() {
   return (
     <>

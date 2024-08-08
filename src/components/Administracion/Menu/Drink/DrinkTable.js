@@ -1,6 +1,8 @@
 import React from "react";
 import Tbody from "./Tbody";
 
+//Componente que contiene la tabla de bebidas.
+
 export default function DrinkTable() {
   return (
     <table>

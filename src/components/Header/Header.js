@@ -1,6 +1,8 @@
 import React from "react";
 import { useAuth } from "../../Autenticacion/Autenticacion";
 
+//Componente que contiene el header de todas las vistas.
+
 export default function Header() {
   const { currentUser, logout } = useAuth();
 

@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
+//Componente que contiene el cuerpo de la tabla de la vista mesas.
+
 export default function Tbody() {
   const [platos, setPlatos] = useState([]);
   const [bebidas, setBebidas] = useState([]);

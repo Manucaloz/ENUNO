@@ -4,6 +4,8 @@ import Footer from "../../components/Footer/Footer";
 import MesaComp from "../../components/Pedidos/Mesa/MesaComp";
 import '../../assets/style.css';
 
+//Componente que renderiza la vista de mesas para hacer pedidos.
+
 export default function MesaPage() {
   return (
     <>

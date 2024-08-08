@@ -3,6 +3,8 @@ import LoginComp from '../../components/Login/LoginComp';
 import '../../assets/style.css';
 import './LoginPage.css';
 
+//Componente que renderiza la vista de login.
+
 export default function Login() {
   return (
     <>

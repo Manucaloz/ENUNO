@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import Table from './Table';
 import Modal from 'react-modal';
-import CocinaEnvio from "../Modal/Cocina/Envio";
-import CocinaConfirmacion from "../Modal/Cocina/Confirmacion";
+import CocinaPregunta from "../Modal/Cocina/CocinaPregunta";
+import CocinaConfirmacion from "../Modal/Cocina/CocinaConfirmacion";
 import CajaEnvio from "../Modal/Caja/CajaEnvio";
 import CajaConfirmacion from "../Modal/Caja/CajaConfirmacion";
+
+//Componente que contiene la vista de la mesa donde se generara el pedido.
 
 Modal.setAppElement('#root');
 
@@ -57,7 +59,7 @@ export default function MesaComp() {
           )}
         </div>
       </div>
-      <CocinaEnvio
+      <CocinaPregunta
         isOpen={showCocinaEnvio}
         onRequestClose={() => setShowCocinaEnvio(false)}
         confir={() => setShowCocinaConfir(true)}

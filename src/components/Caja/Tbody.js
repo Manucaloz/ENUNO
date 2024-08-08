@@ -4,7 +4,7 @@ import Confirmacion from "./Modal/Confirmacion";
 import Boleta from "./Modal/Boleta";
 import Modal from 'react-modal';
 
-//Componente que contiene el cuerpo de la tabla.
+//Componente que contiene el cuerpo de la tabla de caja.
 
 Modal.setAppElement('#root');
 

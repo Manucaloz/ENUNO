@@ -4,6 +4,8 @@ import Footer from "../../components/Footer/Footer";
 import PedidosComp from "../../components/Pedidos/PedidosComp";
 import '../../assets/style.css';
 
+//Componente que renderiza la vista de pedidos.
+
 export default function PedidosPage() {
   return (
     <>

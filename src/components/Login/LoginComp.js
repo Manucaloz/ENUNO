@@ -3,6 +3,8 @@ import { useAuth } from '../../Autenticacion/Autenticacion';
 import { useNavigate } from 'react-router-dom';
 import LoginForm from './LoginForm';
 
+//Componente que contiene las rutas y formulario de loguin.
+
 export default function LoginComp() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');

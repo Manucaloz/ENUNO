@@ -1,6 +1,8 @@
 import React from "react";
 import Table from "./Table";
 
+//Componente que contiene la informacion de los empleados.
+
 export default function Empleados() {
   return (
     <>

@@ -1,6 +1,8 @@
 import React from "react";
 import Table from "./Table";
 
+//Componente que contiene los elementos del modulo corporativo.
+
 export default function CorpComp() {
   return (
     <>

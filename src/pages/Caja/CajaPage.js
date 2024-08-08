@@ -4,6 +4,8 @@ import Footer from "../../components/Footer/Footer";
 import CajaComp from "../../components/Caja/CajaComp";
 import '../../assets/style.css';
 
+//Componente que renderiza la vista de caja.
+
 export default function CajaPage() {
   return (
     <>

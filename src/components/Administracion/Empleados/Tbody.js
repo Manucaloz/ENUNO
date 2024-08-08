@@ -1,5 +1,7 @@
 import React from "react";
 
+//Componente que contiene el cuerpo de la tabla de empleados.
+
 export default function Tbody() {
   return (
     <tbody>

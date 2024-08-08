@@ -2,6 +2,12 @@ import React from 'react';
 import Modal from 'react-modal';
 import check from '../../../../assets/icons8-check-mark-50.png';
 
+/**
+ * Componente Confirmacion: muestra un modal con un mensaje de confirmacion.
+ * @param {boolean} isOpen - Indica si el modal está abierto.
+ * @param {function} onRequestClose - Función para cerrar el modal.
+*/
+
 export default function Confirmacion({ isOpen, onRequestClose }) {
   const mod = {
     content: {

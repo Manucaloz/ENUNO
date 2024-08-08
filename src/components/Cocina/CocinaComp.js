@@ -1,6 +1,8 @@
 import React from "react";
 import Tbody from "./Tbody";
 
+//Componente que contiene la tabla de cocina.
+
 export default function CocinaComp() {
   return(
     <table className="w-60 mt-5">

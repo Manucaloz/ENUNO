@@ -1,6 +1,13 @@
 import React from 'react';
 import Modal from 'react-modal';
 
+/**
+ * Componente CajaEnvio: muestra un modal con una pregunta.
+ * @param {boolean} isOpen - Indica si el modal está abierto o cerrado.
+ * @param {function} onRequestClose - Función para cerrar el modal.
+ * @param {function} confir - Función para abrir el modal Confirmacion.
+*/
+
 export default function CajaEnvio({ isOpen, onRequestClose, confir }) {
   const mod = {
     content: {

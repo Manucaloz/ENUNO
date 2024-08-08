@@ -2,6 +2,8 @@ import React from "react"
 import CorpComp from "../../components/Corporativo/CorpComp";
 import '../../assets/style.css';
 
+//Componente que renderiza la vista de corporativo.
+
 export default function CorpPage() {
   return (
     <>

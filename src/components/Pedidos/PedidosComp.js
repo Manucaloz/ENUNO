@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import mesablanca from '../../assets/icons8-table-50-w.png';
 
+//Componente que contiene los botones de las mesas.
+
 export default function PedidosComp() {
   const [mesas, setMesa] = useState([]);
   const navigate = useNavigate();

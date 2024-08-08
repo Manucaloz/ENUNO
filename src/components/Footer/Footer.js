@@ -1,5 +1,7 @@
 import React from "react";
 
+//Componente que contiene el footer de todas las vistas.
+
 export default function Footer() {
   return (
     <>
